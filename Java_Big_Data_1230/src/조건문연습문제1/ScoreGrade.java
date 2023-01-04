@@ -4,10 +4,11 @@ import java.util.Scanner;
 
 public class ScoreGrade {
     public static void main(String[] args) {
+        int score;
         Scanner sc = new Scanner(System.in);
         while (true) {
             System.out.println("점수를 입력해 주세요 (0~ 100)");
-            int score = sc.nextInt();
+            score = sc.nextInt();
             if (score < 0 || score > 100) {
                 System.out.println("잘못입력하셨습니다");
             } else {
