@@ -8,14 +8,19 @@ import java.util.Scanner;
 public class ClassMethod {
     public static void main(String[] args) {
         Sample sample = new Sample();
+
         Scanner sc = new Scanner(System.in);
         System.out.println("정수값 입력 : ");
         int n1 = sc.nextInt();
         int n2 = sc.nextInt();
         int rst = sample.sum(n1, n2);
+        int rst2 = sample.sum(1,3,5,78,1,2,3,4,5);
         System.out.println(rst);
-        sample.say();
+        System.out.println(rst2);
+        sample.say();  // say() 메소드를 호출하기 위해서는 클래스를 객체로 만들고 객체의 메소드로 접근
         System.out.println(sample.sayStr());
+        sample.getName();
+
 
 
 
