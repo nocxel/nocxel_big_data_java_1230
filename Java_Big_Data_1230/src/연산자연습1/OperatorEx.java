@@ -1,7 +1,5 @@
 package 연산자연습1;
 
-import 입출력예제.SystemInOut;
-
 import java.util.Scanner;
 
 // 이항연산자와 삼항연산자

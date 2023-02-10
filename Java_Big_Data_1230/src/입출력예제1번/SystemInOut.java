@@ -1,4 +1,4 @@
-package 입출력예제;
+package 입출력예제1번;
 
 import java.util.Scanner;
 

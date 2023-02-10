@@ -1,4 +1,4 @@
-package 입출력예제2;
+package 입출력예제2번;
 
 import java.io.IOException;
 import java.util.Scanner; // 두번째로 많이 사용되는 자바 API
